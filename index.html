@@ -2,15 +2,117 @@
 <html>
 <head>
 	<title>CSCE 445: Assignment 1</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<p>
-		<h2>Prompt</h2>
-		<p>
-			Create a personal web page for this class. It will be where you place links to other writings/work you do during the semester. On this page you need to include your name, a photo of yourself, and a brief statement on why you are in this class.
+	<div class="container-fluid" id="screen">
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6 text-center">
+				<div class="card primary-card">
+				    <div class="card-body text-center">
+						<p class="card-text">
+							<img src="site-my-pic.jpg" id="my-pic">
+						<h1>Akash Kundu</h1>
+						<h5>
+							I'm in this class because I heard it was a change of pace from the typical Computer Science class. Additonally, I heard the projects were interesting as well.
+						</h5>
+						</p>
+					</div>
+				</div>
+				<div class="card secondary-card">
+				    <div class="card-body text-center">
+						<p class="card-text">
+						<h5>Assignment 1: Media</h5>
+						<h9>
+							<div class="card list-card no-border-list-card">
+								<div class="card-body text-center">
+									<p class="card-text">
+									    <div class="container-fluid">
+									    	<div class="row">
+									    		<div class="col-sm-3 card-list-icon-section text-center">
+									    			<i class="material-icons">tv</i><br>Television
+									    		</div>
+									    		<div class="col-sm-9 card-list-content-section">
+									    			Modern Family (Comedy), Gotham (Crime), Game of Thrones (SciFi), White Collar (Crime), Fresh Off the Boat (Comedy) 
+									    		</div>
+									    	</div>
+									    </div>
+									</p>
+								</div>
+							</div>
+							<div class="card list-card no-border-list-card">
+								<div class="card-body text-center">
+									<p class="card-text">
+									    <div class="container-fluid">
+									    	<div class="row">
+									    		<div class="col-sm-3 card-list-icon-section text-center">
+									    			<i class="material-icons">wifi</i><br>
+									    			Internet
+									    		</div>
+									    		<div class="col-sm-9 card-list-content-section">
+									    			Youtube (Video), StackOverflow (Text), Spotify (Music)
+ 									    		</div>
+									    	</div>
+									    </div>
+									</p>
+								</div>
+							</div>
+							<div class="card list-card no-border-list-card">
+								<div class="card-body text-center">
+									<p class="card-text">
+									    <div class="container-fluid">
+									    	<div class="row">
+									    		<div class="col-sm-3 card-list-icon-section text-center">
+									    			<i class="material-icons">phone_iphone</i><br>
+									    			Phone
+									    		</div>
+									    		<div class="col-sm-9 card-list-content-section">
+									    			Quora (Text), Gmail (Text), LinkedIn (Text & Images), Slack (Text)
+									    		</div>
+									    	</div>
+									    </div>
+									</p>
+								</div>
+							</div>
+							<div class="card list-card no-border-list-card">
+								<div class="card-body text-center">
+									<p class="card-text">
+									    <div class="container-fluid">
+									    	<div class="row">
+									    		<div class="col-sm-3 card-list-icon-section text-center">
+									    			<i class="material-icons">music_note</i><br>
+									    			Music
+									    		</div>
+									    		<div class="col-sm-9 card-list-content-section">
+									    			Nav (Rap), Drake (Rap & Hip-Hop), Travis Scott (Rap), The Weeknd (Rap & RB), 
+									    		</div>
+									    	</div>
+									    </div>
+									</p>
+								</div>
+							</div>
+						</h9>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3"></div>
+		</div>
+		<!--p>	
+			<h1>Akash Kundu</h1>
+			<h2>Prompt</h2>
+			<p>
 
-			Also include a list of media you use every week -- you should subdivide the higher-level media (e.g. television), into more specific media (e.g. science fiction shows). Feel free to specify specific instances (e.g. Lost, Battlestar Galactica) although you do not need to specify all. As a starting point, remember that high-level media include telephones, television, movies, radio, music, computer games, email, instant messenger, etc.
-		</p>
-	</p>
+				Also include a list of media you use every week -- you should subdivide the higher-level media (e.g. television), into more specific media (e.g. science fiction shows). Feel free to specify specific instances (e.g. Lost, Battlestar Galactica) although you do not need to specify all. As a starting point, remember that high-level media include telephones, television, movies, radio, music, computer games, email, instant messenger, etc.
+			</p>
+		</p-->
+	</div>
 </body>
 </html>

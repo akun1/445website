@@ -1,0 +1,51 @@
+/*style.css*/
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#screen{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#my-pic {
+	width: 30%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.primary-card {
+	margin-top: 20px;
+}
+
+.secondary-card:hover {
+    transform: scale(1.01, 1.01);
+}
+
+.secondary-card {
+	margin-top: 2.5%;
+	transition: all .2s ease-in-out;
+}
+
+.list-card {
+}
+
+.card-list-icon-section {
+	font-size: 70% !important;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.card-list-content-section {
+
+}
+
+.no-border-list-card {
+	border: none !important;
+}
