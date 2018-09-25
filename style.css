@@ -33,6 +33,36 @@ body {
 	transition: all .2s ease-in-out;
 }
 
+.menu-card {
+	position: fixed;
+	left: 0;
+	top: 30vh;
+	width: 20vw;
+}
+
+.menu-card a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menu-card a:hover {
+	color: gray;
+}
+
+.menu-card li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.menu-card ul {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
 .list-card {
 }
 
