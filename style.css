@@ -5,6 +5,10 @@ body {
 	margin: 0;
 }
 
+.text-muted {
+	font-style: italic;
+}
+
 #screen{
 	width: 100vw;
 	height: 100vh;
@@ -40,12 +44,13 @@ body {
 	width: 20vw;
 }
 
-.menu-card a {
+body a {
 	text-decoration: none;
 	color: inherit;
+	font-weight: bold;
 }
 
-.menu-card a:hover {
+body a:hover {
 	color: gray;
 }
 
